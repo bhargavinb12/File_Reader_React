@@ -1,32 +1,73 @@
-.App {
-  text-align: center;
+html{
+  background-color: #c5c5c5;
+  height: 100%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+#header{
+  padding:10px;
+  color:white;
+  background: linear-gradient(rgb(59, 42, 42), #0f0b0b);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#customFileName{
+  margin-left: 26px;
 }
 
-.App-link {
-  color: #61dafb;
+#dropzone{
+  width:50%;
+  margin:auto;
+  color:white;
+  padding:20px;
+  background: linear-gradient(rgb(56, 60, 85), #3d3b57);
+  border-radius: 5px;
+  margin-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.radio{
+  margin-right: 20px;
 }
+
+.opt{
+  background: linear-gradient(black, #343434);
+  color:white;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+
+.palette{
+  margin-right:10px;
+}
+
+#textSection{
+  margin:auto;
+  width:50%;
+  margin-top: 20px;
+  margin-right: 140px;
+  padding:20px;
+  background: linear-gradient(rgb(45, 42, 53), #be8c8c);
+  border-radius: 5px;
+  box-shadow: 1px 5px 10px white;
+  float:right;
+}
+
+#textarea{box-shadow: 1px 5px 10px white;}
+
+#palleteBox{
+  float:left;
+  background: linear-gradient(#d0cbe7, #3b3d57);
+  padding: 5px;
+  margin:auto;
+  width:25%;
+  height: 750px;
+  font-size: 20px;
+  padding-bottom: 200px;
+}
+
+
+
+
+
+
+#right_header{color: #fff; position: absolute; top: 70px; right: 0px}
